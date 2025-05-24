@@ -1,8 +1,5 @@
-<plugin>
-    <groupId>org.apache.maven.plugins</groupId>
-    <artifactId>maven-war-plugin</artifactId>
-    <configuration>
-        <!-- Specify the web.xml or start page -->
-        <webXml>src/main/webapp/WEB-INF/index.html</webXml>
-    </configuration>
-</plugin>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" version="3.0">
+    <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+</web-app>
